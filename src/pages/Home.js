@@ -13,6 +13,24 @@ const Home = () => {
         />
       </div>
 
+      <div className="contact card col-sm-6 my-5 w-100">
+        <div className="row d-flex justify-content-center">
+        Vegetarian and Vegan
+        </div>
+        <div className="row d-flex justify-content-center">
+          <div className="col-sm-2">
+            <i className="bi bi-geo-alt"></i>
+            110 Magdalen Rd, Oxford, OX4 1RQ
+          </div>
+          <div className="col-sm-2">
+            <i className="bi bi-clock"></i>10am~4:30pm, Daily
+          </div>
+          <div className="col-sm-2">
+            <i className="bi bi-telephone"></i>01865 420515
+          </div>
+        </div>
+      </div>
+
       <div className="container m-100">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis

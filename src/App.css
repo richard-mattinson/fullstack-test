@@ -20,9 +20,15 @@
 
 .nav-li {
     padding-bottom: 10px; 
-    border-bottom: 2px whitesmoke solid;
+    border-bottom: 3px whitesmoke solid;
 }
 
 .nav-li:hover {
-    border-color: black;
+    border-color: grey;
+}
+
+.nav-ul {
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Cabin Sketch', cursive;
+  font-size: calc(10px + 3vmin);
 }

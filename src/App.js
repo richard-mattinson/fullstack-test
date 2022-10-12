@@ -8,7 +8,7 @@ import About from './pages/About'
 function App() {
   return (
     <div className="App">
-      <nav className="container-fluid sticky-top bg-white mt-5 mb-0 p-0">
+      <nav className="nav-ul container-fluid sticky-top bg-white mt-5 mb-0 p-0">
         <Link className="nav-li list-inline-item mx-3" to="/">
           Home
         </Link>
