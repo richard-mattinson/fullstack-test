@@ -8,10 +8,16 @@ import About from './pages/About'
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/menu">Menu</Link>
-        <Link to="/about">About</Link>
+      <nav className="container-fluid sticky-top bg-white mt-5 mb-0 p-0">
+        <Link className="nav-li list-inline-item mx-3" to="/">
+          Home
+        </Link>
+        <Link className="nav-li list-inline-item mx-3" to="/menu">
+          Menu
+        </Link>
+        <Link className="nav-li list-inline-item mx-3" to="/about">
+          About
+        </Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />

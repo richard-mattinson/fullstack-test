@@ -1,16 +1,15 @@
+ a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+ }
+
 .App {
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App {
-  background-color: #282c34;
-  color: white;
+  background-color: whitesmoke;
+  color: #282c34;
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
   justify-content: center;
@@ -19,15 +18,11 @@
   align-items: center; */
 }
 
-.App-link {
-  color: #61dafb;
+.nav-li {
+    padding-bottom: 10px; 
+    border-bottom: 2px whitesmoke solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-li:hover {
+    border-color: black;
 }
