@@ -11,6 +11,13 @@
   - Inside `index.js` add `import { BrowserRouter } from "react-router-dom";`
   - inside `src/app.js` add `import { Routes, Route } from 'react-router-dom'`
 - `npm ci` to install any required dependencies
+
+## To use Bootstrap
+Either
+- `npm install bootstrap@5.2.2`
+- add `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+` to the head of `public/index.html`
+
 ## Create folders and files
 - inside the `src` folder create the following folders and files
 - `assets`
@@ -20,6 +27,3 @@
 - `context` (only nessesary if you intend to useContext to pass user info around your application)
   - `LoggedInUser.jsx`
 
-## Using Bootstrap
-- add `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-` to the head of `public/index.html`
