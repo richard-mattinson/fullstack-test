@@ -1,7 +1,9 @@
+import '../App.css'
+
 const Home = () => {
     return (
         <div>
-        Hello
+        Hello Thanks
         </div>
         )
 }
