@@ -25,8 +25,8 @@ add `<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstr
 - inside the `src` folder create the following folders and files
 - `assets`
   - All images wil be stored here
-- `components`
+- `pages`
   - Create all your sections of the page here, e.g. header, menu, contact us
-- `context` (only nessesary if you intend to useContext to pass user info around your application)
+- `context` (only necessary if you intend to useContext to pass user info around your application)
   - `LoggedInUser.jsx`
 
